@@ -18,6 +18,17 @@ export const sbtAbi = [
   { type: "function", name: "feeOf", stateMutability: "view", inputs: [{ name: "user", type: "address" }], outputs: [{ type: "uint24" }] },
   { type: "function", name: "tierFees", stateMutability: "view", inputs: [{ type: "uint256" }], outputs: [{ type: "uint24" }] },
   { type: "function", name: "tierThresholds", stateMutability: "view", inputs: [{ type: "uint256" }], outputs: [{ type: "uint256" }] },
+  {
+    type: "event",
+    name: "Accrued",
+    inputs: [
+      { indexed: true,  name: "user",     type: "address" },
+      { indexed: false, name: "added",    type: "uint256" },
+      { indexed: false, name: "newTotal", type: "uint256" },
+      { indexed: false, name: "newTier",  type: "uint8" },
+    ],
+    anonymous: false,
+  },
 ] as const;
 
 const poolKeyTuple = {
