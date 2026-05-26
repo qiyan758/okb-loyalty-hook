@@ -1,0 +1,22 @@
+{
+  "name": "xlayer-okb-loyalty-hook",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network xlayerTestnet",
+    "swap:demo": "hardhat run scripts/demo-swap.js --network xlayerTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@uniswap/v4-core": "1.0.2",
+    "@uniswap/v4-periphery": "1.0.3",
+    "@openzeppelin/contracts": "^5.0.2",
+    "solmate": "^6.7.0"
+  }
+}

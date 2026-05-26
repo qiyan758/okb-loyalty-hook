@@ -1,0 +1,38 @@
+{
+  "network": "xlayer",
+  "chainId": 196,
+  "deployer": "0x4CA34c9464536D5104ff53C4Ecf3576429F39477",
+  "contracts": {
+    "poolManager": "0x360E68faCcca8cA495c1B759Fd9EEe466db9FB32",
+    "create2Deployer": "0xe3a3631C7CDd61AC2B197e2EEbe6FccceC2F4e7F",
+    "hook": "0xd60374Fd3Cfd96459bFF9DB5b0D67555Ece6A0C0",
+    "sbt": "0xb86FB39D80137AC8674d51a27ed665a0A809deb2",
+    "router": "0x687E56fa1A11DbbF6dDbd313f695406c5Fab6e27",
+    "token0": "0x61A9f3B6d2573Fcf8b2c63F762e6b31a6475a6dA",
+    "token1": "0xC56FE23B26a479deE4448E33DCe812d7AB3d2BEE"
+  },
+  "poolKey": {
+    "currency0": "0x61A9f3B6d2573Fcf8b2c63F762e6b31a6475a6dA",
+    "currency1": "0xC56FE23B26a479deE4448E33DCe812d7AB3d2BEE",
+    "fee": 8388608,
+    "tickSpacing": 60,
+    "hooks": "0xd60374Fd3Cfd96459bFF9DB5b0D67555Ece6A0C0"
+  },
+  "config": {
+    "tierThresholds": [
+      "100000000000000000000",
+      "1000000000000000000000",
+      "10000000000000000000000"
+    ],
+    "tierFees": [
+      3000,
+      2500,
+      1500,
+      500
+    ],
+    "sqrtPriceX96": "79228162514264337593543950336"
+  },
+  "txs": {
+    "demoSwap": "0x46268946b425a5dd6d08444276c1c92e34ba9861cee1518689a2bc8c5c184ab8"
+  }
+}
