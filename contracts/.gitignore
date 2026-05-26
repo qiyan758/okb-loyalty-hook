@@ -1,9 +1,0 @@
-node_modules
-artifacts
-cache
-.env
-deployments
-coverage
-coverage.json
-typechain
-typechain-types
