@@ -1,0 +1,6 @@
+node_modules/
+out/*.png
+out/*.jpg
+.cache/
+remotion-cache/
+# Keep the rendered mp4 — it's the deliverable. (3.6MB, well under 100MB GitHub limit.)
